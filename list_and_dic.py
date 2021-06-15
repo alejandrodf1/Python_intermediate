@@ -16,6 +16,10 @@ def run():
         'floating_numbs': [1.1, 4.5, 6.5, 2.2]
     } 
 
+    for i in super_list:
+        for key, value in i.items():
+            print(key, '-', value)  
+
     for keys, value in super_dict.items():
         print(keys, "-", value)
 
